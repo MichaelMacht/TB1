@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.10.0 on win32)" generated="20211102 14:59:58.763" rpa="false" schemaversion="2">
+<suite id="s1" name="Search" source="C:\_MOJE\Rf cvičení\search.robot">
+<test id="s1-t1" name="Search on Mall - Lenovo">
+<status status="FAIL" starttime="20211102 14:59:59.045" endtime="20211102 14:59:59.046">Test case contains no keywords.</status>
+</test>
+<test id="s1-t2" name="[Documentation]">
+<kw name="https://www.mall.cz/" type="SETUP">
+<arg>browser=${Browser}</arg>
+<msg timestamp="20211102 14:59:59.054" level="FAIL">No keyword with name 'https://www.mall.cz/' found.</msg>
+<status status="FAIL" starttime="20211102 14:59:59.054" endtime="20211102 14:59:59.054"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211102 14:59:59.055" endtime="20211102 14:59:59.056"/>
+</kw>
+<status status="FAIL" starttime="20211102 14:59:59.048" endtime="20211102 14:59:59.056">Setup failed:
+No keyword with name 'https://www.mall.cz/' found.</status>
+</test>
+<test id="s1-t3" name="Search on Mall - Dell">
+<status status="FAIL" starttime="20211102 14:59:59.059" endtime="20211102 14:59:59.062">Test case contains no keywords.</status>
+</test>
+<test id="s1-t4" name="[Documentation]">
+<kw name="https://www.mall.cz/" type="SETUP">
+<arg>browser=${Browser}</arg>
+<msg timestamp="20211102 14:59:59.075" level="FAIL">No keyword with name 'https://www.mall.cz/' found.</msg>
+<status status="FAIL" starttime="20211102 14:59:59.075" endtime="20211102 14:59:59.075"/>
+</kw>
+<kw name="Close All Browsers" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes all open browsers and resets the browser cache.</doc>
+<status status="PASS" starttime="20211102 14:59:59.076" endtime="20211102 14:59:59.077"/>
+</kw>
+<status status="FAIL" starttime="20211102 14:59:59.065" endtime="20211102 14:59:59.077">Setup failed:
+No keyword with name 'https://www.mall.cz/' found.</status>
+</test>
+<doc>Testing vyhledávání na Mall.</doc>
+<status status="FAIL" starttime="20211102 14:59:58.765" endtime="20211102 14:59:59.080"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="4" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="4" skip="0" id="s1" name="Search">Search</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20211102 14:59:59.041" level="WARN">Imported resource file 'C:\_MOJE\Rf cvičení\Resources\main_page.robot' is empty.</msg>
+<msg timestamp="20211102 14:59:59.042" level="WARN">Imported resource file 'C:\_MOJE\Rf cvičení\Resources\result_page.robot' is empty.</msg>
+<msg timestamp="20211102 14:59:59.064" level="WARN">Multiple test cases with name '[Documentation]' executed in test suite 'Search'.</msg>
+</errors>
+</robot>
