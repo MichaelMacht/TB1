@@ -2,9 +2,24 @@
 This repository is not interesting
 
 ## Install
+* How to download
+* How to install
 
-python3 -m venv venv
-pip install -r requirements.txt
-playwright install
+### Executing program
 
-## Table of contents
+* How to run the program
+
+```
+git init
+git branch
+git checkout
+```
+
+* Step-by-step bullets
+
+## Authors
+
+Contact info
+
+ex. Michael Macht  
+ex. [@MichMach](https://twitter.com/michmach)
